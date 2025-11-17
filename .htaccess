@@ -1,0 +1,9 @@
+# Block direct access to sensitive data files
+
+<Files "data_sekolah.json">
+Require all denied
+</Files>
+
+# Optional: prevent directory listings globally
+
+Options -Indexes

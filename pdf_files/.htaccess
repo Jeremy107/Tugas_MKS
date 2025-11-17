@@ -1,0 +1,2 @@
+# Deny direct access to PDF files; must go through download.php
+Require all denied
